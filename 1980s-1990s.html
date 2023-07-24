@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--UTF meta declaration is needed-->
+        <meta charset="utf-8">
+         <!--meta viewport is crucial for responsive design-->
+         <meta name="viewport" content="width=device-width, initial-scale= 1">
+         <meta name="description" content="This is the blurb that shows up in the search result">
+         <!--Alt Z wraps the text in VSCODE-->
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet">
+
+        <title>Key Moments From the History of the LGBTQIA+ Movement</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://use.typekit.net/twn0qyg.css">
+        <link rel="stylesheet" href="CSS/styles.css">
+
+        <!--! + Enter default fills the html-->
+    </head>
+    <body>
+        <!--descriptive tags boost your website in google-->
+
+        <header>
+            <nav class="mobile-nav">
+                <a class="menu-item logo-box" href="index.html">
+                    HOME
+                </a>
+                <i class="fa fa-bars" onclick="openNav()"></i><!--the Font Awesome hambuger icon with the JS function that will make the burger work-->
+            </nav>
+            <nav class="desktop-nav">
+
+                <a class="menu-item inner-header" href="1920s-1940s.html">1920s-1940s</a>
+            <a class="menu-item inner-header" href="1950s-1960s.html">1950s-1960s</a>
+            <a class="menu-item inner-header" href="1969-1970s.html">1969-1970s</a>
+            <a class="menu-item inner-header" href="1980s-1990s.html">1980s-1990s</a>
+            <a class="menu-item inner-header" href="2000s-2010s.html">2000s-2010s</a>
+            <a class="menu-item inner-header" href="2016-2021.html">2016-2021</a>
+            <a class="menu-item inner-header" href="index.html">HOME</a>
+                </nav>
+
+        </header>
+
+        <div class="container">
+
+        
+            <div class="body-wrapper">
+                <p class="title early-years">The AIDS Crisis: 1980s-1990s</p>
+                <img id="raid-image" src="img/80s.jpg" alt="NYC, 1987">
+                 <p class="photo-caption">NYC, 1987</p>
+            <p class="caption"> In the 1980s, the AIDS epidemic emerged as a major public health and social issue that disproportionately affected gay men. The disease was initially stigmatized and ignored by the government and the media, and many gay men faced discrimination and ostracism from society and their families.
+
+            In 1987, the AIDS Coalition to Unleash Power (ACT UP) was formed in New York City, as a direct action group to demand more government action and research on AIDS. The group staged protests, demonstrations, and civil disobedience actions to raise awareness and pressure authorities to respond to the AIDS crisis. </p>
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/jxaCvvPr98E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> <p class="photo-caption">Above is a video outlining the devastating effects of the AIDS epidemic in America.</p>
+            
+            <p class="caption mobile-adjustment dadt">In 1990, the Americans with Disabilities Act was passed by Congress, which prohibited discrimination based on disability, including HIV/AIDS status. This was a landmark legislation that protected the rights of people living with HIV/AIDS, who faced stigma and discrimination in employment, housing, health care, and other areas.
+                
+            In 1993, President Bill Clinton signed the “Don’t Ask, Don’t Tell” policy, which allowed gay and lesbian people to serve in the military as long as they did not disclose their sexual orientation or engage in homosexual conduct. The policy was intended to be a compromise between banning and allowing openly gay service members, but it resulted in many discharges and harassment cases.
+            
+            In 1996, President Bill Clinton signed the Defense of Marriage Act (DOMA), which defined marriage as a legal union between one man and one woman for federal purposes, and allowed states to refuse to recognize same-sex marriages performed in other states. The law was challenged by many lawsuits from same-sex couples who sought recognition of their marriages.
+
+
+               </p>
+            </div>
+
+        </div>
+        <!--The offscreen nav that opens when you click the hamburger menu-->
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a class="side-item" href="1920s-1940s.html">1920s-1940s</a>
+            <a class="side-item" href="1950s-1960s.html">1950s-1960s</a>
+            <a class="side-item" href="1969-1970s.html">1969-1970s</a>
+            <a class="side-item" href="1980s-1990s.html">1980s-1990s</a>
+            <a class="side-item" href="2000s-2010s.html">2000s-2010s</a>
+            <a class="side-item" href="2016-2021.html">2016-2021</a>
+            <a class="side-item" href="index.html">HOME</a>
+          </div>
+
+<!--The JavaScript that will open and close the hamburger menu. You must put this code at the bottom of EVERY HTML file, just about the closing body tag!-->
+        <script>
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "250px";
+                document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+                document.getElementById("raid-image").style.opacity= "40%";
+            }
+            
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+                document.body.style.backgroundColor = "rgba(0,0,0,0)";
+                document.getElementById("raid-image").style.opacity= "100%";
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--UTF meta declaration is needed-->
+        <meta charset="utf-8">
+         <!--meta viewport is crucial for responsive design-->
+         <meta name="viewport" content="width=device-width, initial-scale= 1">
+         <meta name="description" content="This is the blurb that shows up in the search result">
+         <!--Alt Z wraps the text in VSCODE-->
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet">
+
+        <title>Key Moments From the History of the LGBTQIA+ Movement</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://use.typekit.net/twn0qyg.css">
+        <link rel="stylesheet" href="CSS/styles.css">
+
+        <!--! + Enter default fills the html-->
+    </head>
+    <body>
+        <!--descriptive tags boost your website in google-->
+
+        <header>
+            <nav class="mobile-nav">
+                <a class="menu-item logo-box" href="index.html">
+                    HOME
+                </a>
+                <i class="fa fa-bars" onclick="openNav()"></i><!--the Font Awesome hambuger icon with the JS function that will make the burger work-->
+            </nav>
+            <nav class="desktop-nav">
+
+                <a class="menu-item inner-header" href="1920s-1940s.html">1920s-1940s</a>
+            <a class="menu-item inner-header" href="1950s-1960s.html">1950s-1960s</a>
+            <a class="menu-item inner-header" href="1969-1970s.html">1969-1970s</a>
+            <a class="menu-item inner-header" href="1980s-1990s.html">1980s-1990s</a>
+            <a class="menu-item inner-header" href="2000s-2010s.html">2000s-2010s</a>
+            <a class="menu-item inner-header" href="2016-2021.html">2016-2021</a>
+            <a class="menu-item inner-header" href="index.html">HOME</a>
+                </nav>
+
+        </header>
+
+        <div class="container">
+
+        
+            <div class="body-wrapper">
+                <p class="title early-years">The Current Challenges and Victories</p>
+                <img id="raid-image" src="img/stonewall-modern.png" alt="An image of the outside of Stonewall Inn in modern times, covered in rainbow flags and pride memorabilia.">
+                 <p class="photo-caption">An image of the outside of Stonewall Inn in modern times, covered in rainbow flags and pride memorabilia..</p>
+            <p class="caption"> In 2016, the Obama administration issued guidance to public schools that they should allow transgender students to use bathrooms and locker rooms that match their gender identity, as part of their Title IX obligations to prevent sex discrimination. The guidance was met with resistance and lawsuits from some states and conservative groups, who argued that it violated the privacy and safety of other students.
+
+            In 2017, President Donald Trump announced on Twitter that he would ban transgender people from serving in the military, citing “tremendous medical costs and disruption”. His announcement reversed the policy of the Obama administration, which had lifted the ban on transgender service members in 2016. Several lawsuits were filed to challenge Trump’s ban, which was blocked by multiple federal courts. </p>
+            <img src="img/lgbt.jpg" alt="Modern day pride celebration.">
+    
+            <p class="caption mobile-adjustment modern">In 2019, the House of Representatives passed the Equality Act, a bill that would amend the Civil Rights Act of 1964 and other federal laws to prohibit discrimination based on sexual orientation and gender identity in employment, housing, public accommodations, education, credit, jury service, and federally funded programs. The bill faced opposition from some Republicans and religious groups, who argued that it would infringe on religious freedom and conscience rights. The bill stalled in the Senate.
+            
+            In 2020, the Supreme Court ruled in Bostock v. Clayton County that Title VII of the Civil Rights Act of 1964, which prohibits discrimination based on sex in employment, also protects workers from discrimination based on sexual orientation or gender identity. The ruling was a landmark victory for LGBT workers’ rights, as it affirmed that they could not be fired or harassed for being gay or transgender.
+            <img class="imbedded-photos" alt="President Joe Biden siging a bill protecting LGBT Americans from discrimination" src="img/biden.jpg">
+            In 2021, President Joe Biden signed an executive order on his first day in office that directed federal agencies to implement the Bostock ruling and ensure that LGBT people are protected from discrimination in all areas of federal policy. He also signed an executive order that reversed Trump’s ban on transgender service members and allowed them to serve openly and access medical care. He also issued a presidential memorandum that directed U.S. agencies to promote and protect the human rights of LGBT people around the world.
+            
+            The LGBT movement in America has made remarkable progress in the past decades, but it still faces many challenges and threats from anti-LGBT forces. The movement continues to advocate for the passage of the Equality Act, the protection of transgender youth from harmful legislation and practices, the end of conversion therapy, the expansion of health care access and HIV prevention, the recognition of intersex rights, and the inclusion and empowerment of LGBT people of color, immigrants, and people with disabilities. The movement also celebrates its diversity, resilience, and achievements, and honors its history and heroes.
+            <img  src="img/modern.jpg" alt="Protestor holding a pride flag.">
+               </p>
+            </div>
+
+        </div>
+        <!--The offscreen nav that opens when you click the hamburger menu-->
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a class="side-item" href="1920s-1940s.html">1920s-1940s</a>
+            <a class="side-item" href="1950s-1960s.html">1950s-1960s</a>
+            <a class="side-item" href="1969-1970s.html">1969-1970s</a>
+            <a class="side-item" href="1980s-1990s.html">1980s-1990s</a>
+            <a class="side-item" href="2000s-2010s.html">2000s-2010s</a>
+            <a class="side-item" href="2016-2021.html">2016-2021</a>
+            <a class="side-item" href="index.html">HOME</a>
+          </div>
+
+<!--The JavaScript that will open and close the hamburger menu. You must put this code at the bottom of EVERY HTML file, just about the closing body tag!-->
+        <script>
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "250px";
+                document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+                document.getElementById("raid-image").style.opacity= "40%";
+            }
+            
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+                document.body.style.backgroundColor = "rgba(0,0,0,0)";
+                document.getElementById("raid-image").style.opacity= "100%";
+            }
+        </script>
+    </body>
+</html>

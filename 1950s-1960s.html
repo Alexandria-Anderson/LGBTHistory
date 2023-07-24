@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--UTF meta declaration is needed-->
+        <meta charset="utf-8">
+         <!--meta viewport is crucial for responsive design-->
+         <meta name="viewport" content="width=device-width, initial-scale= 1">
+         <meta name="description" content="This is the blurb that shows up in the search result">
+         <!--Alt Z wraps the text in VSCODE-->
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet">
+
+        <title>Key Moments From the History of the LGBTQIA+ Movement</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://use.typekit.net/twn0qyg.css">
+        <link rel="stylesheet" href="CSS/styles.css">
+
+        <!--! + Enter default fills the html-->
+    </head>
+    <body>
+        <!--descriptive tags boost your website in google-->
+
+        <header>
+            <nav class="mobile-nav">
+                <a class="menu-item logo-box" href="index.html">
+                    HOME
+                </a>
+                <i class="fa fa-bars" onclick="openNav()"></i><!--the Font Awesome hambuger icon with the JS function that will make the burger work-->
+            </nav>
+            <nav class="desktop-nav">
+
+                <a class="menu-item inner-header" href="1920s-1940s.html">1920s-1940s</a>
+            <a class="menu-item inner-header" href="1950s-1960s.html">1950s-1960s</a>
+            <a class="menu-item inner-header" href="1969-1970s.html">1969-1970s</a>
+            <a class="menu-item inner-header" href="1980s-1990s.html">1980s-1990s</a>
+            <a class="menu-item inner-header" href="2000s-2010s.html">2000s-2010s</a>
+            <a class="menu-item inner-header" href="2016-2021.html">2016-2021</a>
+            <a class="menu-item inner-header" href="index.html">HOME</a>
+                </nav>
+
+        </header>
+
+        <div class="container">
+
+        
+            <div class="body-wrapper">
+                <p class="title early-years">The Homophile Years: 1950s-1960s</p>
+                <img id="raid-image" src="img/60s3.jpg" alt="Drag Queen smilinf">
+                 <p class="photo-caption"></p>
+            <p class="caption">In 1950, Harry Hay founded the Mattachine Foundation, one of the nation’s first gay rights groups. The group aimed to educate and unify homosexuals, and to protect them from discrimination and persecution. It also challenged the prevailing medical and legal views that homosexuality was abnormal or deviant.
+
+            In 1955, Del Martin and Phyllis Lyon founded the Daughters of Bilitis, the first lesbian rights organization in the U.S. The group published a magazine called “The Ladder”, which featured articles on lesbian issues, culture, and politics. It also advocated for social acceptance and legal rights for lesbians.   </p>
+            <img id="senator" src="img/trash.jpg" alt="Senators Kenneth Wherry and J. Lister Hill conducted the first congressional investigation into homosexuality in teh federal workforce.">
+             <p class="photo-caption">Senators Kenneth Wherry and J. Lister Hill conducted the first congressional investigation into homosexuality in teh federal workforce.</p>
+            <p class="caption mobile-adjustment"><img class="imbedded-photos desktop-image" alt="Phyllis Abry and her partner, Mildred. The two were featured in Women’s Army Auxiliary Corps propaganda during World War II."src="img/50s2.jpg">Both groups faced internal divisions over their goals and strategies. Some members favored a more radical approach, while others preferred a more moderate one. Some also disagreed on whether to align themselves with other social movements, such as feminism or civil rights.
+                    
+            In 1965, members of the LGBT community rallied in Washington D.C. and gathered in front of the White House to stage the first LGBT rights demonstration in the U.S. They carried signs that read “Homosexuals Should Be Judged as Individuals” and “15 Million Homosexual Americans Ask for Equality”. They also picketed at other federal buildings and landmarks.
+                
+            In 1966, transgender activists protested at Compton’s Cafeteria in San Francisco, after police tried to arrest them for violating gender norms. The riot was one of the first recorded instances of transgender resistance to police harassment.</p>
+
+           
+            <img class="imbedded-photos mobile-image" alt="Phyllis Abry and her partner, Mildred. The two were featured in Women’s Army Auxiliary Corps propaganda during World War II."src="img/50s2.jpg">
+            <p class="photo-caption">Phyllis Abry and her partner, Mildred. The two were featured in Women’s Army Auxiliary Corps propaganda during World War II.</p>
+               
+            </div>
+
+        </div>
+        <!--The offscreen nav that opens when you click the hamburger menu-->
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a class="side-item" href="1920s-1940s.html">1920s-1940s</a>
+            <a class="side-item" href="1950s-1960s.html">1950s-1960s</a>
+            <a class="side-item" href="1969-1970s.html">1969-1970s</a>
+            <a class="side-item" href="1980s-1990s.html">1980s-1990s</a>
+            <a class="side-item" href="2000s-2010s.html">2000s-2010s</a>
+            <a class="side-item" href="2016-2021.html">2016-2021</a>
+            <a class="side-item" href="index.html">HOME</a>
+          </div>
+
+<!--The JavaScript that will open and close the hamburger menu. You must put this code at the bottom of EVERY HTML file, just about the closing body tag!-->
+        <script>
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "250px";
+                document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+                document.getElementById("raid-image").style.opacity= "40%";
+            }
+            
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+                document.body.style.backgroundColor = "rgba(0,0,0,0)";
+                document.getElementById("raid-image").style.opacity= "100%";
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--UTF meta declaration is needed-->
+        <meta charset="utf-8">
+         <!--meta viewport is crucial for responsive design-->
+         <meta name="viewport" content="width=device-width, initial-scale= 1">
+         <meta name="description" content="This is the blurb that shows up in the search result">
+         <!--Alt Z wraps the text in VSCODE-->
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet">
+ 
+         <title>Key Moments From the History of the LGBTQIA+ Movement</title>
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+         <link rel="stylesheet" href="https://use.typekit.net/twn0qyg.css">
+         <link rel="stylesheet" href="CSS/styles.css">
+ 
+
+        <!--! + Enter default fills the html-->
+    </head>
+    <body>
+        <!--descriptive tags boost your website in google-->
+
+        <header>
+            <nav class="mobile-nav">
+                <a class="menu-item logo-box" href="index.html">
+                    HOME
+                </a>
+                <i class="fa fa-bars" onclick="openNav()"></i><!--the Font Awesome hambuger icon with the JS function that will make the burger work-->
+            </nav>
+                  <nav class="desktop-nav">
+
+                <a class="menu-item inner-header" href="1920s-1940s.html">1920s-1940s</a>
+            <a class="menu-item inner-header" href="1950s-1960s.html">1950s-1960s</a>
+            <a class="menu-item inner-header" href="1969-1970s.html">1969-1970s</a>
+            <a class="menu-item inner-header" href="1980s-1990s.html">1980s-1990s</a>
+            <a class="menu-item inner-header" href="2000s-2010s.html">2000s-2010s</a>
+            <a class="menu-item inner-header" href="2016-2021.html">2016-2021</a>
+            <a class="menu-item inner-header" href="index.html">HOME</a>
+                </nav>
+
+
+        </header>
+
+        <div class="container">
+
+            <div class="body-wrapper">
+                <p class="title early-years">Marriage Equality: 2000s-2010s</p>
+                <img id="raid-image" src="img/rainbow.jpg" alt="An image of the White House lit up in rainbow lights after the legalization of gay marriage.">
+                 <p class="photo-caption">An image of the White House lit up in rainbow lights after the legalization of gay marriage.</p>
+            <p class="caption">  The first 15 years of the 21st century witnessed significant changes and achievements for the LGBTQIA community in America and around the world. From legal victories to social movements, from cultural icons to political leaders, from scientific breakthroughs to artistic expressions, LGBTQIA people and their allies made history in various fields and domains.
+
+                One of the most prominent themes of this period was the struggle for marriage equality. In 2000, Vermont became the first state to legalize civil unions for same-sex couples (Goodnough 2009), followed by Connecticut in 2005 (Associated Press 2005) and New Jersey in 2006 (Perez-Pena 2006). In 2003, Massachusetts became the first state to allow same-sex marriage (Goodridge v. Department of Public Health), after the state’s Supreme Judicial Court ruled that banning it was unconstitutional (Lewis 2003). By 2015, 37 states and the District of Columbia had legalized same-sex marriage (Liptak 2015), either by legislative action, judicial decision, or popular vote (Freedom to Marry). The landmark case of Obergefell v. Hodges (2015), decided by the U.S. Supreme Court in June 2015, finally recognized the right of same-sex couples to marry nationwide, striking down all remaining bans and requiring all states to issue marriage licenses and recognize marriages performed elsewhere (Liptak 2015).</p>
+            <img src="img/gay_pride_AP110716128639.jpg" alt="Two Navy sailors kissing.">
+             <p class="photo-caption">Celebrations of the repeal of Don't Ask Don't Tell in 2011</p>
+            
+                <p class="caption mobile-adjustment dadt">
+             Another major theme was the advancement of transgender rights and visibility. In 2004, San Francisco elected its first openly transgender official, Theresa Sparks, as president of the Police Commission. In 2009, President Barack Obama signed into law the Matthew Shepard and James Byrd Jr. Hate Crimes Prevention Act, which expanded the federal hate crime law to include crimes motivated by a victim’s actual or perceived gender, sexual orientation, gender identity, or disability. In 2010, Argentina became the first country to allow transgender people to change their legal gender without any medical or judicial requirements. In 2013, Chelsea Manning came out as a transgender woman after being sentenced to prison for leaking classified documents to WikiLeaks. In 2014, Laverne Cox became the first openly transgender person to be nominated for an Emmy Award in an acting category and to appear on the cover of Time magazine. In 2015, Caitlyn Jenner announced her transition on national television and received the Arthur Ashe Courage Award at the ESPYs.
+               </p>
+            </div>
+
+        </div>
+        <!--The offscreen nav that opens when you click the hamburger menu-->
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a class="side-item" href="1920s-1940s.html">1920s-1940s</a>
+            <a class="side-item" href="1950s-1960s.html">1950s-1960s</a>
+            <a class="side-item" href="1969-1970s.html">1969-1970s</a>
+            <a class="side-item" href="1980s-1990s.html">1980s-1990s</a>
+            <a class="side-item" href="2000s-2010s.html">2000s-2010s</a>
+            <a class="side-item" href="2016-2021.html">2016-2021</a>
+            <a class="side-item" href="index.html">HOME</a>
+          </div>
+
+<!--The JavaScript that will open and close the hamburger menu. You must put this code at the bottom of EVERY HTML file, just about the closing body tag!-->
+        <script>
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "250px";
+                document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+            }
+            
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+                document.body.style.backgroundColor = "black";
+            }
+        </script>
+    </body>
+</html>
