@@ -1,4 +1,4 @@
-﻿# LGBTHistory
+﻿# LGBT History
 
 Language/Framework: jQuery, HTML, CSS.
 
